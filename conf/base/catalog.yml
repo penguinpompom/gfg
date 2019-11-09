@@ -1,0 +1,46 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in the kedro docs under `Accessing data`
+# You can access the kedro docs by running `kedro docs`
+json_data:
+  type: JSONLocalDataSet
+  filepath: "data/01_raw/data.json"
+
+raw_data:
+  type: CSVLocalDataSet
+  filepath: "data/01_raw/raw_data.csv"
+
+clean_data:
+  type: CSVLocalDataSet
+  filepath: "data/03_primary/clean_data.csv"
+
+clean_data_with_fe:
+  type: CSVLocalDataSet
+  filepath: "data/04_features/clean_data_with_fe.csv"
+
+cluster_model:
+  type: PickleLocalDataSet
+  filepath: "data/06_models/kmeans.pickle"
+  versioned: True
+
+clean_data_with_fe_labels:
+  type: CSVLocalDataSet
+  filepath: "data/04_features/clean_data_with_fe_labels.csv"
+
+clean_data_with_fe_classification:
+  type: CSVLocalDataSet
+  filepath: "data/05_model_input/clean_data_with_fe_classification.csv"
+
+scaler:
+  type: PickleLocalDataSet
+  filepath: "data/06_models/scaler.pickle"
+  versioned: True
+
+classifier:
+  type: PickleLocalDataSet
+  filepath: "data/06_models/classifier.pickle"
+  versioned: True
+
+submission:
+  type: CSVLocalDataSet
+  filepath: "data/07_model_output/submission.csv"
