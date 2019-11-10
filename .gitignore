@@ -24,9 +24,9 @@ data/**/08_reporting/**
 # also keep all .gitkeep files
 !.gitkeep
 
-# keep also the example dataset
-!data/01_raw/iris.csv
+# keep submission stuff
 !data/08_reporting/pipeline.png
+!data/07_model_output/submission.csv
 
 
 ##########################
