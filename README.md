@@ -12,6 +12,7 @@ kedro new
 The bulk of the source code is in `src/gfg/pipeline.py`, `src/gfg/nodes/data_engineering.py` and `src/gfg/nodes/data_science.py`.
 Data catalog is specified in `conf/base/catalog.yml` and training parameters are in `conf/base/parameters.yml`.
 Final submission is in `data/07_model_output/submission.csv`.
+Report notebook is in `notebooks/1.0-Report_Workflow-Karthik-20191110.ipynb`.
 ## Things to note
  * No data was commited to this repo.
  * No credentials was commited to this repo. All credentials should be created by the user in a `credentials.yml` file and stored in `conf/local/`
