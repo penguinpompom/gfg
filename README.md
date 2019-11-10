@@ -10,7 +10,8 @@ Project was initialised in `Kedro 0.15.4` by running:
 kedro new
 ```
 The bulk of the source code is in `src/gfg/pipeline.py`, `src/gfg/nodes/data_engineering.py` and `src/gfg/nodes/data_science.py`.
-Data catalog is specified in `conf/base/catalog.yml` and training parameters are in `conf/base/parameters.yml`
+Data catalog is specified in `conf/base/catalog.yml` and training parameters are in `conf/base/parameters.yml`.
+Final submission is in `data/07_model_output/submission.csv`.
 ## Things to note
  * No data was commited to this repo.
  * No credentials was commited to this repo. All credentials should be created by the user in a `credentials.yml` file and stored in `conf/local/`
