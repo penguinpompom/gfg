@@ -13,6 +13,7 @@ data/**
 logs/**
 references/**
 results/**
+data/**/08_reporting/**
 
 # except their sub-folders
 !data/**/
