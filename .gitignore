@@ -26,6 +26,7 @@ data/**/08_reporting/**
 
 # keep also the example dataset
 !data/01_raw/iris.csv
+!data/08_reporting/pipeline.png
 
 
 ##########################
