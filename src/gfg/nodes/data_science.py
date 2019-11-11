@@ -101,6 +101,8 @@ def make_predictions(scaler, model, clean_data_with_fe_classification):
 
 	y_pred = model.predict_classes(X)
 
+	print('Final accuracy: ', accuracy_score(y, y_pred))
+
 	submission = pd.DataFrame({'customer_id' : clean_data_with_fe_classification['customer_id'],
-                           	   'predictions' : y_pred.reshape((y_pred.shape[0],))})
+                           	   'female_flag' : y_pred.reshape((y_pred.shape[0],))})
 	return submission
