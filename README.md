@@ -1,4 +1,4 @@
-# Global Fashion Group Data Science Challenge - Karthik's entry
+# Data Science Challenge
 
 ## Overview
 My focus in this challenge is to demonstrate project structuring, coding and data science fundamentals while optimising for simplicity over accuracy.
